@@ -6,6 +6,10 @@ e.g. the default is 2s (two seconds) —- thus iDeviceInfoMenu.2s.sh
 To Install:
 Clone https://github.com/libimobiledevice/libimobiledevice
 Make, and build it. Then make install.
+Install note: if you’re using macOS you can use home-brew to make it heaps easier!
+1) Get homebrew via: ‘ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)” ’
+2) Get a prerequisite: ‘ brew cast install osxfuse ’
+3) Install libimobiledevice: ‘ brew install -s --HEAD libimobiledevice ideviceinstaller ’
 
 For macOS:
 1) Get BitBar from https://getbitbar.com — put it in applications folder
