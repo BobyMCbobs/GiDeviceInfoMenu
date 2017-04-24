@@ -23,3 +23,8 @@ For Linux users on GNOME:
 2) Place iDeviceInfoMenu.2s.sh in ~/.config/argos/
 3) Wait for refresh.
 4) Profit.
+
+
+
+Issues:
+If you don’t have execution rights, ‘chmod +x iDeviceInfoMenu.2s.sh’
