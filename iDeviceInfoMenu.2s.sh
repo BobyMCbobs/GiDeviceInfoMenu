@@ -8,16 +8,27 @@ IDI=$(ideviceinfo | grep DeviceName | cksum | cut -b 1)
 if [ $IDI -eq 4 ]
 then
 
-echo "Device Not Connected"
-echo "Please Connect Your iOS Device"
+	echo "Device Not Connected"
+	echo "Please Connect Your iOS Device"
 
 else
 
-echo "$NAMEOFDEVICE's batt is $BATT%"
-echo "---"
-echo "$NAMEOFDEVICE"
-echo "iOS $IOSVER"
-echo "$BATT% charged"
+if [ $BATT != 100 ]
+then
+	echo "📱$BATT%⚡️"
+	echo "---"
+	echo "$NAMEOFDEVICE"
+	echo "iOS $IOSVER"
+	echo "$BATT% Charged ⚡️"
+
+else
+	echo "📱$BATT%☑️"
+	echo "---"
+	echo "$NAMEOFDEVICE"
+	echo "iOS $IOSVER"
+	echo "$NAMEOFDEVICE is Charged ☑️"
+
+fi
 
 fi
 

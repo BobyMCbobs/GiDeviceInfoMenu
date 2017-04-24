@@ -25,6 +25,6 @@ For Linux users on GNOME:
 4) Profit.
 
 
-
 Issues:
-If you don’t have execution rights, ‘chmod +x iDeviceInfoMenu.2s.sh’
+- If you don’t have execution rights, ‘chmod +x iDeviceInfoMenu.2s.sh’
+- If ideviceinfo doesn’t run on macOS —- run: ‘sudo cp /usr/local/Cellar/libimobiledevice/*/bin/ideviceinfo /usr/bin/‘
