@@ -1,4 +1,4 @@
-iDeviceInfoMenu is a simple GUI for the ideviceinfo tool of libimobiledevice displayed via Bitbar for macOS, or Argosm —- and extension for the GNOME desktop.
+iDeviceInfoMenu is a simple GUI for the ideviceinfo tool of libimobiledevice displayed via Bitbar for macOS, or Argos —- and extension for the GNOME desktop.
 
 iDeviceInfoMenu has an option for the refresh rate — if want to change the refresh rate check the file name’s .[amount of seconds]s.sh
 e.g. the default is 2s (two seconds) —- thus iDeviceInfoMenu.2s.sh
