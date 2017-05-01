@@ -6,6 +6,8 @@ e.g. the default is 2s (two seconds) —- thus iDeviceInfoMenu.2s.sh
 To Install:
 Clone https://github.com/libimobiledevice/libimobiledevice
 Make, and build it. Then make install.
+Big chance you’ll also need to install https://github.com/libimobiledevice/libplist as well as https://github.com/libimobiledevice/libusbmuxd —- if not first
+
 Install note: if you’re using macOS you can use home-brew to make it heaps easier!
 1) Get homebrew via: ‘ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)” ’
 2) Get a prerequisite: ‘ brew cast install osxfuse ’
