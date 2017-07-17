@@ -8,7 +8,7 @@ CH=$(ideviceinfo -q com.apple.mobile.battery | grep BatteryIsCharging | cksum | 
 
 if [ $IDI -eq 4 ]
 then
-	echo "iDevice Not Connected"
+	echo "No iDevice"
 	echo "Please Connect Your iOS Device"
 else
 
