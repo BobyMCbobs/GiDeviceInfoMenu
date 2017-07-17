@@ -26,6 +26,8 @@ For macOS (2b):
 4) Refresh extensions.
 5) Profit.
 
+NOTES:
+Phonetics: G-i-Device-Info-Menu
 
 Bonus:
 (*) Works in CLI
