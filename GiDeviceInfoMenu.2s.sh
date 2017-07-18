@@ -26,6 +26,14 @@ else
 		echo "$NAMEOFDEVICE"
 		echo "iOS $IOSVER"
 		echo "$NAMEOFDEVICE is Charged ☑️"
+		
+		OS="`uname`"
+                DE="`echo $XDG_CURRENT_DESKTOP`"
+                if [ $OS = "Linux" ] && [ $DE = "GNOME" ]
+                then
+                        notify-send GiDeviceInfo "Device has charged to 100%"
+                fi
+
 	fi
 
 fi
