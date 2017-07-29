@@ -10,7 +10,7 @@ Via apt (precompiled, GNU/Linux) (1a):
 
 Via Homebrew (precompiled, macOS) (1b):
 1) Install Homebrew: '/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”'
-2) Fix dependencies: 'brew cast install osxfuse'
+2) Install dependencies/prerequisites: 'brew cast install osxfuse'
 3) Install libimobiledevice: 'brew install -s --HEAD libimobiledevice ideviceinstaller'
 
 For Linux users on GNOME (2a):
