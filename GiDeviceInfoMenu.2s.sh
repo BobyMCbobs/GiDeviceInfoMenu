@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-#GiDeviceInfoMenu v1.0 by BobyMCBobs
+#GiDeviceInfoMenu v1.1 by BobyMCBobs
 #Licensed under GPL 3.0
 #See https://github.com/BobyMCbobs/GiDeviceInfoMenu for more info
 
