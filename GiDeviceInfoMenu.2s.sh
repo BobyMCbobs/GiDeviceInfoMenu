@@ -7,6 +7,7 @@
 NAMEOFDEVICE=$(ideviceinfo | grep DeviceName | sed 's/DeviceName: *//g')
 BATT=$(ideviceinfo -q com.apple.mobile.battery | grep BatteryCurrentCapacity | grep -o -E '[0-9]+')
 IOSVER=$(ideviceinfo | grep ProductVersion | sed 's/ProductVersion: *//g')
+IOSBUILD=$(ideviceinfo | grep BuildVersion | awk '{print $2}')
 IDI=$(ideviceinfo | grep DeviceName | cksum | cut -b 1)
 CH=$(ideviceinfo -q com.apple.mobile.battery | grep BatteryIsCharging | cksum | cut -b 1)
 OS="`uname`"
@@ -39,14 +40,14 @@ else
 		echo "📱$BATT%⚡️"
 		echo "---"
 		echo "$NAMEOFDEVICE"
-		echo "iOS $IOSVER"
+		echo "iOS $IOSVER ($IOSBUILD)"
 		echo "$BATT% Charged ⚡️"
 		rmCHLock
 	else
 		echo "📱$BATT%☑️"
 		echo "---"
 		echo "$NAMEOFDEVICE"
-		echo "iOS $IOSVER"
+		echo "iOS $IOSVER ($IOSBUILD)"
 		echo "$NAMEOFDEVICE is Charged ☑️"
 		echo $FULLC
 		sendBattNotif
