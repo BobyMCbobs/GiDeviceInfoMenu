@@ -14,7 +14,7 @@ Via Homebrew (precompiled, macOS) (1b):
 3) Install libimobiledevice: 'brew install -s --HEAD libimobiledevice ideviceinstaller'
 
 For Linux users on GNOME (2a):
-1) Install Argos from https://extensions.gnome.org/extension/1176/argos/
+1) Install Argos from https://extensions.gnome.org/extension/1176/argos/   
   i) Install libnotify-bin (if it's not installed by default)
 2) Place GiDeviceInfoMeu.2s.sh in ~/.config/argos/
 3) Wait for refresh.
